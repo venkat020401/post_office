@@ -130,6 +130,9 @@ input {
   .overall #left img {
     width: 100%;
   }
+   .card {
+    margin-right: 0px !important;
+  }
  #out{
   width:100%;
   padding:0;

@@ -3,7 +3,6 @@ function okay() {
   fetch(`https://api.postalpincode.in/pincode/${a}`)
     .then((data) => data.json())
     .then((data1) => {
-      console.log(data1);
       document.getElementById("input").value = "";
       document.getElementById("out").innerHTML = "";
 

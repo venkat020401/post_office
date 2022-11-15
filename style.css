@@ -1,0 +1,169 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.top .navbar,
+.navbar-light,
+.bg-light {
+  border-bottom: 1px solid gray !important ;
+}
+
+span {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 50px;
+}
+
+img {
+  border-radius: 20px;
+}
+
+.overall {
+  width: 97%;
+  margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 15px;
+}
+
+.overall #left {
+  width: 60%;
+  float: left;
+}
+
+.overall p {
+  text-align: justify;
+}
+
+.overall .right {
+  width: 35%;
+  float: right;
+}
+
+.overall .left img {
+  margin: 28px 0px;
+}
+
+.overall .right .search {
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 10%;
+  text-align: center;
+}
+
+h4 {
+  color: rgb(204, 0, 1);
+  padding-top: 30px;
+}
+
+.overall #left a {
+  padding-right: 20px;
+  font-size: 25px;
+}
+
+.overall #left a :hover {
+  transform: scale(1.3);
+}
+
+.fa-youtube-play {
+  color: red;
+}
+
+.fa-instagram {
+  color: white;
+  background-image: linear-gradient(
+    to bottom left,
+    rgb(253, 1, 194),
+    rgb(252, 5, 157),
+    rgb(255, 179, 1)
+  );
+  padding: 1px 2px;
+  border-radius: 10px;
+}
+
+.overall #left a .instagram {
+  font-size: 35px;
+}
+
+.fa-twitter-square {
+  color: rgb(86, 185, 245);
+}
+
+input {
+  margin-bottom: 10px !important;
+}
+
+.btn1 {
+  border: 1px solid gray;
+  color: white;
+  background-color: rgb(204, 0, 1);
+  border-radius: 5px;
+  padding: 6px;
+}
+
+.btn1:hover {
+  background-color: rgb(164, 40, 35);
+}
+@media only screen and (max-width: 1070px) {
+  .overall {
+    width: 98%;
+    font-family: "Montserrat", sans-serif;
+    margin: 0 auto;
+  }
+
+  .overall #left {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .overall .right {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  #column {
+    margin-left: 65px !important;
+  }
+  .container .col {
+    padding-right: 0px !important;
+  }
+}
+
+@media only screen and (max-width: 620px) {
+  .overall #left img {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 546px) {
+  .top .navbar img {
+    border-radius: 15px;
+    width: 130px;
+    height: 80px;
+  }
+}
+@media only screen and (max-width: 410px) {
+  span {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 38px;
+  }
+  div.container {
+    width: 100% !important;
+  }
+}
+/* output */
+
+.card-header {
+  text-align: center;
+  background-color: rgb(204, 0, 1) !important;
+  color: white;
+}
+
+.card {
+  height: 300px;
+  margin-top: 15px;
+  margin-right: 26px !important;
+}
+
+.container {
+  margin-left: 0px !important;
+}
+.col {
+  padding-left: 0px !important;
+}

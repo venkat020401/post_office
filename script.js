@@ -8,7 +8,7 @@ function okay() {
 
       try {
         if (data1[0].PostOffice == null) {
-          alert("Please Enter The Valit Pincode");
+          alert("Please Enter The Valid Pincode");
         } else {
           document.getElementById("left").style.display = "none";
           var div1 = document.getElementById("out");
